@@ -1,0 +1,164 @@
+
+.hidden{
+    display: none;
+}
+.shown{
+    display: block;
+}
+
+/*Spinner*/
+.spinner-map .fa-spinner {
+    display: inline-block;
+    position: absolute;
+    top: 30%;
+    right: 50%;
+    font-size: 80px;
+    color: #1b6d85;
+    z-index: 700;
+}
+.spinner-map {
+    display: block;
+}
+.spinner-map.hidden{
+    display: none;
+}
+
+/*fade in*/
+.animation-effect{
+    animation: fadein 0.8s linear;
+    -moz-animation: fadein 0.8s linear; /* Firefox */
+    -webkit-animation: fadein 0.8s linear; /* Safari and Chrome */
+    -o-animation: fadein 0.8s linear; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/*Leaflet*/
+.leaflet-container {
+    cursor: default;
+}
+.leaflet-control-container .leaflet-top.leaflet-left{
+    z-index: 500;
+}
+
+/*Map Options*/
+#map-control-btn-wrapper{
+    position: absolute;
+    top: 2px;
+    right: 23px;
+    width: auto;
+    z-index: 500;
+}
+.map-control-btn{
+    width: 160px;
+
+}
+#mapOptionsPanel{
+    position: absolute;
+    top: 30px;
+    right: 14px;
+    width: 290px;
+    height: auto;
+    z-index: 510;
+    padding: 10px;
+}
+#mapOptionsPanel .card-header{
+    font-size: 0.9rem;
+}
+#mapOptionsPanel ul{
+    list-style: none;
+}
+#mapOptionsPanel li{
+    display: inline-block !important;
+    margin-left: 2px;
+    margin-bottom: 4px;
+}
+.card.basemap{
+    width: 124px;
+}
+.card.basemap.highlighted{
+    border: 2px #46fffa solid;
+}
+.card.basemap img{
+    width: 120px;
+    height: 70px;
+}
+.card.basemap .card-body{
+    font-size: 0.7rem;
+}
+
+/*AOI Options*/
+#aoiOptionsPanel{
+    position: absolute;
+    top: 30px;
+    right: 280px;
+    width: 230px;
+    height: auto;
+    z-index: 510;
+    padding: 10px;
+}
+#aoiOptionsPanel .card-header{
+    font-size: 0.9rem;
+}
+#aoiOptionsPanel .card-body{
+    padding-top: 10px;
+    padding-left: 8px !important;
+}
+.aoi-option-selection .selected{
+    color: #167ecd;
+    font-weight: 300;
+}
+.aoi-action-type li {
+   margin-left: 10px;
+}
+
+/*Popup*/
+.map-popup{
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    width: 180px !important;
+    height: auto;
+    z-index: 700;
+}
+.map-popup .card-body{
+    font-size: 0.7rem;
+    padding: 5px;
+}
+.map-popup .card-header{
+    cursor: pointer;
+    padding: 0;
+}
+
+

@@ -1,0 +1,327 @@
+html, body {
+    height:100%;
+    width: 100%;
+    -ms-overflow-style: scrollbar;
+    overflow:hidden;
+    overflow-y: auto;
+    min-width: 320px;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(239, 246, 252, 0.53);
+}
+main {
+    display: block;
+    width:100%;
+    height: 100%;
+
+}
+.container-fluid{
+    padding: 0!important;
+    width: 100%;
+    height: 100% !important;
+}
+.custom-container{
+    position: absolute;
+    /*top: 65px;*/
+    top: 55px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: block;
+    padding: 0;
+    margin: 0 auto auto 0;
+
+    /* Firefox */
+    height: -moz-calc(100% - 55px) !important;
+    /* WebKit */
+    height: -webkit-calc(100% - 55px) !important;
+    /* Opera */
+    height: -o-calc(100% - 55px) !important;
+    /* Standard */
+    height: calc(100% - 55px) !important;
+}
+a{
+    outline: 0;
+}
+a:visited, a:hover, a:active, a:focus{
+    outline: 0;
+}
+select{
+    line-height: 1.5em;
+    border: 1px solid rgba(179, 179, 179, 0.42) !important;
+    border-radius: 2px !important;
+    box-shadow: 2px 2px 5px rgba(136, 136, 136, 0.71);
+    padding: 2px 2px 2px 10px;
+}
+.right-aligh{
+    text-align: right;
+}
+
+/*Spinner 1*/
+#splash-init{
+    z-index:999;
+}
+.splash-init .fa-spinner {
+    text-align: center;
+    box-sizing: border-box;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    z-index: 999;
+}
+.splash-init.hidden{
+    display:none
+}
+.splash-init.shown{
+    display: block
+}
+.splash-init {
+    /*text-align: center;*/
+    display: inline-block;
+    font-size: 80px;
+    margin-top: 20%;
+    color: #1b6d85;
+}
+
+/*
+ * Animation
+ */
+@-webkit-keyframes ball-clip-rotate {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    50% {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@-moz-keyframes ball-clip-rotate {
+    0% {
+        -moz-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    50% {
+        -moz-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+    100% {
+        -moz-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@-o-keyframes ball-clip-rotate {
+    0% {
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    50% {
+        -o-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+    100% {
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes ball-clip-rotate {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    50% {
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+
+/*fade in*/
+.animation-effect{
+    animation: fadein 0.8s;
+    -moz-animation: fadein 0.8s; /* Firefox */
+    -webkit-animation: fadein 0.8s; /* Safari and Chrome */
+    -o-animation: fadein 0.8s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.long-text{
+    word-wrap: break-word;
+    -webkit-hyphens: manual;
+    -moz-hyphens: manual;
+    hyphens: manual;
+
+}
+
+
+
+/*********************
+ **** Header ****
+**********************/
+#main-nav.navbar.navbar-expand-md.navbar-dark{
+    /*background-color:  #00264c !important;*/
+    background-color:  #000000 !important;
+
+    background: -moz-linear-gradient(270deg, rgba(192,192,192,1) 0%, rgba(0,0,0,1) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(192,192,192,1)), color-stop(100%, rgba(0,0,0,1))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(270deg, rgba(192,192,192,1) 0%, rgba(0,0,0,1) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(270deg, rgba(192,192,192,1) 0%, rgba(0,0,0,1) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(270deg, rgba(192,192,192,1) 0%, rgba(0,0,0,1) 100%); /* ie10+ */
+    background: linear-gradient(180deg, rgba(192,192,192,1) 0%, rgba(0,0,0,1) 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0c0c0', endColorstr='#000000',GradientType=0 ); /* ie6-9 */
+
+
+    padding-left: 20px;
+    z-index:999
+}
+#navbarContent{
+    padding-left: 10px;
+}
+#main-nav-items li.nav-item a {
+    color: #ffffff !important;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: smaller;
+    font-weight: bold;
+}
+#main-nav-items li.nav-item a:active,
+#main-nav-items li.nav-item a:visited{
+    color: #ffffff !important;
+    text-decoration: none !important;
+}
+
+#main-nav-items li.nav-item a:hover,
+#main-nav-items li.nav-item a:focus{
+    color: #ffffff;
+    text-decoration: underline !important;
+}
+.navbar-dark .navbar-toggler{
+    background-color: #b2b2b2;
+    padding: 4px;
+}
+.navbar-text.brand-text{
+    color: #ffffff;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.1em;
+    margin-top: -1px;
+}
+
+ul#main-nav-items.navbar-nav{
+    margin-left: 10px;
+}
+
+
+/******************************************
+ *Adjust sizes depending on the screen size
+ *****************************************/
+
+/***********************
+ **** Media Queries ****
+***********************/
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+    body {
+        overflow: auto;
+    }
+    .container-fluid{
+        height: 100%;
+        overflow: auto;
+    }
+    .custom-container{
+        height: auto;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+    body {
+        overflow: auto;
+    }
+    .container-fluid{
+        height: 100%;
+    }
+    .custom-container{
+        height: auto;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    body {
+        overflow: scroll;
+    }
+    .container-fluid{
+        height: 100%;
+    }
+    .custom-container{
+        max-height: 900px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container-fluid{
+        overflow-y: auto;
+        height: 100%;
+    }
+    .custom-container{
+        max-height: 900px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    body{
+        overflow:auto;
+    }
+}
+
+/*Extra large devices (large desktops)*/
+/*No media query since the extra-large breakpoint has no upper bound on its width*/
+
