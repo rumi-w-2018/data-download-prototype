@@ -1,0 +1,2618 @@
+[{
+		"title": "Boundaries - National Boundary Dataset",
+		"sbDatasetTag": "National Boundary Dataset (NBD)",
+		"datasetInternalId": "nbdDataset",
+		"parentInternalId": "nbd",
+		"isData": true,
+		"showThumbOnMap": false,
+		"showThumbOnProdList": false,
+		"filterKeys": ["Boundaries", "data", "elevation products", "national boundary dataset", "boundary", "boundaries", "boundaries (national, state)", "nbd"],
+		"thumbnail": {
+			"url": "https://thor-f5.er.usgs.gov/ngtoc/metadata/waf/collections/thumbnails/boundaries_thumbnail.jpg",
+			"orientation": "landscape"
+		},
+		"moreInfoShow": true,
+		"moreInfo": [
+			{
+				"name": "description",
+				"display": "Description",
+				"url": "https://www.sciencebase.gov/catalog/item/4f70b219e4b058caae3f8e19",
+				"show": true
+			}
+		],
+		"formats": [{
+				"name": "filegdb10_1",
+				"display": "FileGDB 10.1",
+				"sbTag": "FileGDB 10.1"
+			},
+			{
+				"name": "shapefile",
+				"display": "Shapefile",
+				"sbTag": "Shapefile"
+			}
+		],
+		"extents": [{
+				"name": "national",
+				"display": "National",
+				"sbTag": "National"
+			},
+			{
+				"name": "state",
+				"display": "State",
+				"sbTag": "State"
+			}
+		],
+		"extentsFormats": {
+			"national": [{
+				"formatName": "filegdb10_1",
+				"display": "FileGDB 10.1",
+				"formatSbTag": "FileGDB 10.1"
+			}],
+			"state": [{
+					"formatName": "filegdb10_1",
+					"display": "FileGDB 10.1",
+					"formatSbTag": "FileGDB 10.1"
+				},
+				{
+					"formatName": "shapefile",
+					"display": "Shapefile",
+					"formatSbTag": "Shapefile"
+				}
+			]
+		},
+		"defaultExtentName": "state",
+		"defaultFormatName": "shapefile",
+		"defaultExtentSbTag": "State",
+		"defaultFormatSbTag": "Shapefile",
+		"productDownload" : [
+			{
+				"name": "downloadURL",
+				"display": "Download"
+			}
+		]
+	},
+	{
+		"title": "1 arc-second DEM",
+		"sbDatasetTag": "National Elevation Dataset (NED) 1 arc-second",
+		"datasetInternalId": "ned1ArcSec",
+		"parentInternalId": "ned",
+		"isData": true,
+		"showThumbOnMap": true,
+		"showThumbOnProdList": true,
+		"filterKeys": ["data", "ned", "elevation products", "elevation products (3dep)", "1 arc-second dem", "elevation", "3dep", "3dep products", "dem", "1 arc second", "1 arc-second", "elevation product", "3dep product"],
+		"thumbnail": {
+			"url": "https://thor-f5.er.usgs.gov/ngtoc/metadata/waf/collections/thumbnails/ned_1_col_thumbnail.jpg",
+			"orientation": "landscape"
+		},
+		"moreInfoShow": true,
+		"moreInfo": [
+			{
+				"name": "description",
+				"display": "Description",
+				"url": "https://www.sciencebase.gov/catalog/item/4f70aa71e4b058caae3f8de1",
+				"show": true
+			}
+		],
+		"formats": [{
+				"name": "arcgrid",
+				"display": "ArcGrid",
+				"sbTag": "ArcGrid"
+			},
+			{
+				"name": "gridfloat",
+				"display": "GridFloat",
+				"sbTag": "GridFloat"
+			},
+			{
+				"name": "img",
+				"display": "IMG",
+				"sbTag": "IMG"
+			}
+		],
+		"extents": [{
+			"name": "1x1degree",
+			"display": "1 x 1 degree",
+			"sbTag": "1 x 1 degree"
+		}],
+		"extentsFormats": {
+			"1x1degree": [{
+					"formatName": "arcgrid",
+					"display": "ArcGrid",
+					"formatSbTag": "ArcGrid"
+				},
+				{
+					"formatName": "gridfloat",
+					"display": "GridFloat",
+					"formatSbTag": "GridFloat"
+				},
+				{
+					"formatName": "img",
+					"display": "IMG",
+					"formatSbTag": "IMG"
+				}
+			]
+		},
+		"defaultExtentName": "1x1degree",
+		"defaultFormatName": "arcgrid",
+		"defaultExtentSbTag": "1 x 1 degree",
+		"defaultFormatSbTag": "ArcGrid",
+		"productDownload" : [
+			{
+				"name": "downloadURL",
+				"display": "Download"
+			}
+		]
+	},
+	{
+		"title": "1 meter DEM",
+		"sbDatasetTag": "Digital Elevation Model (DEM) 1 meter",
+		"datasetInternalId": "ned1Meter",
+		"parentInternalId": "ned",
+		"isData": true,
+		"showThumbOnMap": true,
+		"showThumbOnProdList": true,
+		"filterKeys": ["data", "elevation products", "elevation products (3dep)", "digital elevation model (dem) 1 meter", "digital elevation model", "elevation", "3dep", "3dep product", "dem", "1 meter", "elevation product", "3dep product"],
+		"thumbnail": {
+			"url": "",
+			"orientation": ""
+		},
+		"moreInfoShow": true,
+		"moreInfo": [
+			{
+				"name": "description",
+				"display": "Description",
+				"url": "https://www.sciencebase.gov/catalog/item/543e6b86e4b0fd76af69cf4c",
+				"show": true
+			}
+		],
+		"formats": [{
+			"name": "img",
+			"display": "IMG",
+			"sbTag": "IMG"
+		}],
+		"extents": [{
+				"name": "10000x10000meter",
+				"display": "10000 x 10000 meter",
+				"sbTag": "10000 x 10000 meter"
+			}
+
+		],
+		"extentsFormats": {
+			"10000x10000meter": [{
+				"formatName": "img",
+				"display": "IMG",
+				"formatSbTag": "IMG"
+			}]
+		},
+		"defaultExtentName": "10000x10000meter",
+		"defaultFormatName": "img",
+		"defaultExtentSbTag": "10000 x 10000 meter",
+		"defaultFormatSbTag": "IMG",
+		"productDownload" : [
+			{
+				"name": "downloadURL",
+				"display": "Download"
+			}
+		]
+	},
+	{
+		"title": "1/3 arc-second DEM",
+		"sbDatasetTag": "National Elevation Dataset (NED) 1/3 arc-second",
+		"datasetInternalId": "ned1-3ArcSec",
+		"parentInternalId": "ned",
+		"isData": true,
+		"showThumbOnMap": true,
+		"showThumbOnProdList": true,
+		"filterKeys": ["data", "ned", "elevation products", "elevation products (3dep)", "1/3 arc-second dem", "elevation", "3dep", "3dep product", "dem", "1/3 arc second", "1/3 arc-second", "elevation product", "3dep product"],
+		"thumbnail": {
+			"url": "https://thor-f5.er.usgs.gov/ngtoc/metadata/waf/collections/thumbnails/ned_13_col_thumbnail.jpg",
+			"orientation": "landscape"
+		},
+		"moreInfoShow": true,
+		"moreInfo": [
+			{
+				"name": "description",
+				"display": "Description",
+				"url": "https://www.sciencebase.gov/catalog/item/4f70aa9fe4b058caae3f8de5",
+				"show": true
+			}
+		],
+		"formats": [{
+				"name": "arcgrid",
+				"display": "ArcGrid",
+				"sbTag": "ArcGrid"
+			},
+			{
+				"name": "gridfloat",
+				"display": "GridFloat",
+				"sbTag": "GridFloat"
+			},
+			{
+				"name": "img",
+				"display": "IMG",
+				"sbTag": "IMG"
+			}
+		],
+		"extents": [{
+			"name": "1x1degree",
+			"display": "1 x 1 degree",
+			"sbTag": "1 x 1 degree"
+		}],
+		"extentsFormats": {
+			"1x1degree": [{
+					"formatName": "arcgrid",
+					"display": "ArcGrid",
+					"formatSbTag": "ArcGrid"
+				},
+				{
+					"formatName": "gridfloat",
+					"display": "GridFloat",
+					"formatSbTag": "GridFloat"
+				},
+				{
+					"formatName": "img",
+					"display": "IMG",
+					"formatSbTag": "IMG"
+				}
+			]
+		},
+		"defaultExtentName": "1x1degree",
+		"defaultFormatName": "arcgrid",
+		"defaultExtentSbTag": "1 x 1 degree",
+		"defaultFormatSbTag": "ArcGrid",
+		"productDownload" : [
+			{
+				"name": "downloadURL",
+				"display": "Download"
+			}
+		]
+	},
+	{
+		"title": "1/9 arc-second DEM",
+		"sbDatasetTag": "National Elevation Dataset (NED) 1/9 arc-second",
+		"datasetInternalId": "ned1-9ArcSec",
+		"isData": true,
+		"showThumbOnMap": true,
+		"showThumbOnProdList": true,
+		"filterKeys": ["data", "ned", "elevation products", "elevation products (3dep)", "1/9 arc-second dem", "elevation", "3dep", "3dep product", "dem", "1/9 arc second", "1/9 arc-second", "elevation product", "3dep product"],
+		"thumbnail": {
+			"url": "https://thor-f5.er.usgs.gov/ngtoc/metadata/waf/collections/thumbnails/ned_19_col_thumbnail.jpg",
+			"orientation": "landscape"
+		},
+		"moreInfoShow": true,
+		"moreInfo": [
+			{
+				"name": "description",
+				"display": "Description",
+				"url": "https://www.sciencebase.gov/catalog/item/4f70aac4e4b058caae3f8de7",
+				"show": true
+			}
+		],
+		"formats": [{
+			"name": "img",
+			"display": "IMG",
+			"sbTag": "IMG"
+		}],
+		"extents": [{
+				"name": "15x15minute",
+				"display": "15 x 15 minute",
+				"sbTag": "15 x 15 minute"
+			}
+
+		],
+		"extentsFormats": {
+			"15x15minute": [{
+				"formatName": "img",
+				"display": "IMG",
+				"formatSbTag": "IMG"
+			}]
+		},
+		"defaultExtentName": "15x15minute",
+		"defaultFormatName": "img",
+		"defaultExtentSbTag": "15 x 15 minute",
+		"defaultFormatSbTag": "IMG",
+		"productDownload" : [
+			{
+				"name": "downloadURL",
+				"display": "Download"
+			}
+		]
+	},
+	{
+		"title": "2 arc-second DEM - Alaska",
+		"sbDatasetTag": "National Elevation Dataset (NED) Alaska 2 arc-second",
+		"id": "4f70aaece4b058caae3f8de9",
+		"parentInternalId": "ned",
+		"isData": true,
+		"showThumbOnMap": true,
+		"showThumbOnProdList": true,
+		"filterKeys": ["data", "ned", "elevation products", "elevation products (3dep)", "2 arc-second dem", "alaska", "elevation", "3dep", "3dep product", "dem", "2 arc second", "2 arc-second", "elevation product", "3dep product"],
+		"thumbnail": {
+			"url": "https://thor-f5.er.usgs.gov/ngtoc/metadata/waf/collections/thumbnails/ned_2_col_thumbnail.jpg",
+			"orientation": "landscape"
+		},
+		"moreInfoShow": true,
+		"moreInfo": [
+			{
+				"name": "description",
+				"display": "Description",
+				"url": "https://www.sciencebase.gov/catalog/item/4f70aaece4b058caae3f8de9",
+				"show": true
+			}
+		],
+		"formats": [{
+				"name": "arcgrid",
+				"display": "ArcGrid",
+				"sbTag": "ArcGrid"
+			},
+			{
+				"name": "gridfloat",
+				"display": "GridFloat",
+				"sbTag": "GridFloat"
+			},
+			{
+				"name": "img",
+				"display": "IMG",
+				"sbTag": "IMG"
+			}
+		],
+		"extents": [{
+			"name": "1x1degree",
+			"display": "1 x 1 degree",
+			"sbTag": "1 x 1 degree"
+		}],
+		"extentsFormats": {
+			"1x1degree": [{
+					"formatName": "arcgrid",
+					"display": "ArcGrid",
+					"formatSbTag": "ArcGrid"
+				},
+				{
+					"formatName": "gridfloat",
+					"display": "GridFloat",
+					"formatSbTag": "GridFloat"
+				},
+				{
+					"formatName": "img",
+					"display": "IMG",
+					"formatSbTag": "IMG"
+				}
+			]
+		},
+		"defaultExtentName": "1x1degree",
+		"defaultFormatName": "arcgrid",
+		"defaultExtentSbTag": "1 x 1 degree",
+		"defaultFormatSbTag": "ArcGrid",
+		"productDownload" : [
+			{
+				"name": "downloadURL",
+				"display": "Download"
+			}
+		]
+	},
+	{
+		"title": "5 meter DEM (Alaska only)",
+		"sbDatasetTag": "Alaska IFSAR 5 meter DEM",
+		"datasetInternalId": "ned5Meter",
+		"parentInternalId": "ned",
+		"isData": true,
+		"showThumbOnMap": true,
+		"showThumbOnProdList": true,
+		"filterKeys": ["data", "elevation products", "elevation products (3dep)", "5 meter dem", "alaska", "elevation", "3dep", "3dep product", "dem", "5 meter", "elevation product", "3dep product"],
+		"thumbnail": {
+			"url": "https://thor-f5.er.usgs.gov/ngtoc/metadata/waf/collections/thumbnails/3dep_5m_alaska_ifsar_thumbnail.jpg",
+			"orientation": "portrait"
+		},
+		"moreInfoShow": true,
+		"moreInfo": [
+			{
+				"name": "description",
+				"display": "Description",
+				"url": "https://www.sciencebase.gov/catalog/item/5641fe98e4b0831b7d62e758",
+				"show": true
+			}
+		],
+		"formats": [{
+			"name": "arcgrid",
+			"display": "ArcGrid",
+			"sbTag": "ArcGrid"
+		}],
+		"extents": [{
+			"name": "varies",
+			"display": "Varies",
+			"sbTag": "Varies"
+		}],
+		"extentsFormats": {
+			"varies": [{
+				"formatName": "arcgrid",
+				"display": "ArcGrid",
+				"formatSbTag": "ArcGrid"
+			}]
+		},
+		"defaultExtentName": "varies",
+		"defaultFormatName": "arcgrid",
+		"defaultExtentSbTag": "Varies",
+		"defaultFormatSbTag": "ArcGrid",
+		"productDownload" : [
+			{
+				"name": "downloadURL",
+				"display": "Download"
+			}
+		]
+	},
+	{
+		"title": "Contours (1:24,000-scale)",
+		"sbDatasetTag": "National Elevation Dataset (NED) 1/3 arc-second - Contours",
+		"datasetInternalId": "nedContours",
+		"parentInternalId": "ned",
+		"isData": true,
+		"showThumbOnMap": true,
+		"showThumbOnProdList": true,
+		"filterKeys": ["data", "ned", "elevation products", "elevation products (3dep)", "1:24,000", "24k", "elevation", "dem", "1/3 arc second", "1/3 arc-second", "3dep", "3dep product", "contours", "elevation product", "3dep product"],
+		"thumbnail": {
+			"url": "",
+			"orientation": ""
+		},
+		"moreInfoShow": true,
+		"moreInfo": [
+			{
+				"name": "description",
+				"display": "Description",
+				"url": "https://www.sciencebase.gov/catalog/item/4f70ab22e4b058caae3f8deb",
+				"show": true
+			}
+		],
+		"formats": [{
+				"name": "filegdb10_1",
+				"display": "FileGDB 10.1",
+				"sbTag": "FileGDB 10.1"
+			},
+			{
+				"name": "shapefile",
+				"display": "Shapefile",
+				"sbTag": "Shapefile"
+			}
+		],
+		"extents": [{
+			"name": "1x1degree",
+			"display": "1 x 1 degree",
+			"sbTag": "1 x 1 degree"
+		}],
+		"extentsFormats": {
+			"1x1degree": [{
+					"formatName": "filegdb10_1",
+					"display": "FileGDB 10.1",
+					"formatSbTag": "FileGDB 10.1"
+				},
+				{
+					"formatName": "shapefile",
+					"display": "Shapefile",
+					"formatSbTag": "Shapefile"
+				}
+			]
+		},
+		"defaultExtentName": "1x1degree",
+		"defaultFormatName": "filegdb10_1",
+		"defaultExtentSbTag": "1 x 1 degree",
+		"defaultFormatSbTag": "FileGDB 10.1",
+		"productDownload" : [
+			{
+				"name": "downloadURL",
+				"display": "Download"
+			}
+		]
+	},
+	{
+		"title": "DEM Source (OPR)",
+		"sbDatasetTag": "Original Product Resolution (OPR) Digital Elevation Model (DEM)",
+		"datasetInternalId": "nedsrcOpr",
+		"parentInternalId": "nedsrc",
+		"isData": true,
+		"showThumbOnMap": true,
+		"showThumbOnProdList": true,
+		"filterKeys": ["data", "elevation source data", "elevation source data (3dep)", "dem source", "elevation", "3dep", "3dep source", "dem"],
+		"thumbnail": {
+			"url": "https://thor-f5.er.usgs.gov/ngtoc/metadata/waf/collections/thumbnails/ned_opr_col_thumbnail.jpg",
+			"orientation": "landscape"
+		},
+		"moreInfoShow": true,
+		"moreInfo": [
+			{
+				"name": "description",
+				"display": "Description",
+				"url": "https://www.sciencebase.gov/catalog/item/530f4226e4b0e7e46bd2c315",
+				"show": true
+			}
+		],
+		"formats": [{
+			"name": "arcgrid",
+			"display": "ArcGrid",
+			"sbTag": "ArcGrid"
+		}],
+		"extents": [{
+			"name": "varies",
+			"display": "Varies",
+			"sbTag": "Varies"
+		}],
+		"extentsFormats": {
+			"varies": [{
+				"formatName": "arcgrid",
+				"display": "ArcGrid",
+				"formatSbTag": "ArcGrid"
+			}]
+		},
+		"defaultExtentName": "varies",
+		"defaultFormatName": "arcgrid",
+		"defaultExtentSbTag": "Varies",
+		"defaultFormatSbTag": "ArcGrid",
+		"productDownload" : [
+			{
+				"name": "downloadURL",
+				"display": "Download"
+			}
+		]
+	},
+	{
+		"title": "Ifsar Digital Surface Model (DSM)",
+		"sbDatasetTag": "Ifsar Digital Surface Model (DSM)",
+		"datasetInternalId": "nedsrcDsm",
+		"parentInternalId": "nedsrc",
+		"isData": true,
+		"showThumbOnMap": true,
+		"showThumbOnProdList": true,
+		"filterKeys": ["data", "elevation source data", "elevation source data (3dep)", "ifsar digital surface model", "dsm", "ifsar", "digital surface model", "elevation", "3dep", "3dep source", "dem"],
+		"thumbnail": {
+			"url": "",
+			"orientation": ""
+		},
+		"moreInfoShow": true,
+		"moreInfo": [
+			{
+				"name": "description",
+				"display": "Description",
+				"url": "https://www.sciencebase.gov/catalog/item/543e6a6ae4b0fd76af69cf47",
+				"show": true
+			}
+		],
+		"formats": [{
+			"name": "tiff",
+			"display": "TIFF",
+			"sbTag": "TIFF"
+		}],
+		"extents": [{
+			"name": "varies",
+			"display": "Varies",
+			"sbTag": "Varies"
+		}],
+		"extentsFormats": {
+			"varies": [{
+				"formatName": "tiff",
+				"display": "TIFF",
+				"formatSbTag": "TIFF"
+			}]
+		},
+		"defaultExtentName": "varies",
+		"defaultFormatName": "tiff",
+		"defaultExtentSbTag": "Varies",
+		"defaultFormatSbTag": "TIFF",
+		"productDownload" : [
+			{
+				"name": "downloadURL",
+				"display": "Download"
+			}
+		]
+	},
+	{
+		"title": "Ifsar Orthorectified Radar Image (ORI)",
+		"sbDatasetTag": "Ifsar Orthorectified Radar Image (ORI)",
+		"datasetInternalId": "nedsrcOri",
+		"parentInternalId": "nedsrc",
+		"isData": true,
+		"showThumbOnMap": true,
+		"showThumbOnProdList": true,
+		"filterKeys": ["data", "elevation source data", "elevation source data (3dep)", "ifsar orthorectified radar image", "ori", "ifsar", "orthorectified", "orthorectified radar image", "radar", "elevation", "3dep", "3dep source", "dem"],
+		"thumbnail": {
+			"url": "",
+			"orientation": ""
+		},
+		"moreInfoShow": true,
+		"moreInfo": [
+			{
+				"name": "description",
+				"display": "Description",
+				"url": "https://www.sciencebase.gov/catalog/item/543e6acde4b0fd76af69cf4a",
+				"show": true
+			}
+		],
+		"formats": [{
+			"name": "tiff",
+			"display": "TIFF",
+			"sbTag": "TIFF"
+		}],
+		"extents": [{
+			"name": "varies",
+			"display": "Varies",
+			"sbTag": "Varies"
+		}],
+		"extentsFormats": {
+			"varies": [{
+				"formatName": "tiff",
+				"display": "TIFF",
+				"formatSbTag": "TIFF"
+			}]
+		},
+		"defaultExtentName": "varies",
+		"defaultFormatName": "tiff",
+		"defaultExtentSbTag": "Varies",
+		"defaultFormatSbTag": "TIFF",
+		"productDownload" : [
+			{
+				"name": "downloadURL",
+				"display": "Download"
+			}
+		]
+	},
+	{
+		"title": "Lidar Point Cloud (LPC)",
+		"sbDatasetTag": "Lidar Point Cloud (LPC)",
+		"datasetInternalId": "nedsrcLpc",
+		"parentInternalId": "nedsrc",
+		"isData": true,
+		"showThumbOnMap": true,
+		"showThumbOnProdList": true,
+		"filterKeys": ["data", "elevation source data", "elevation source data (3dep)", "lidar point cloud (lpc)", "lpc", "lidar point cloud", "lidar", "point cloud", "elevation", "3dep", "3dep source", "dem"],
+		"thumbnail": {
+			"url": "https://thor-f5.er.usgs.gov/ngtoc/metadata/waf/collections/thumbnails/lpc_thumb.jpg",
+			"orientation": "landscape"
+		},
+		"moreInfoShow": true,
+		"moreInfo": [
+			{
+				"name": "description",
+				"display": "Description",
+				"url": "https://www.sciencebase.gov/catalog/item/4f70ab64e4b058caae3f8def",
+				"show": true
+			}
+		],
+		"formats": [{
+			"name": "laslaz",
+			"display": "LAS/LAZ",
+			"sbTag": "LAS/LAZ"
+		}],
+		"extents": [{
+			"name": "varies",
+			"display": "Varies",
+			"sbTag": "Varies"
+		}],
+		"extentsFormats": {
+			"varies": [{
+				"formatName": "laslaz",
+				"display": "LAS/LAZ",
+				"formatSbTag": "LAS/LAZ"
+			}]
+		},
+		"defaultExtentName": "varies",
+		"defaultFormatName": "laslaz",
+		"defaultExtentSbTag": "Varies",
+		"defaultFormatSbTag": "LAS/LAZ",
+		"productDownload" : [
+			{
+				"name": "downloadURL",
+				"display": "Download LAS"
+			},
+			{
+				"name": "downloadLazURL",
+				"display": "Download LAZ"
+			}
+		]
+	},
+	{
+		"title": "Historical Topographic Maps",
+		"sbDatasetTag": "Historical Topographic Maps",
+		"datasetInternalId": "histopoDataset",
+		"parentInternalId": "histtopo",
+		"isData": false,
+		"showThumbOnMap": false,
+		"showThumbOnProdList": true,
+		"filterKeys": ["map", "historical topographic maps", "historical topo maps", "historical", "topographic", "topographic map", "geopdf"],
+		"thumbnail": {
+			"url": "https://thor-f5.er.usgs.gov/ngtoc/metadata/waf/collections/thumbnails/ms_tupelo_336606_1992_24000.jpg",
+			"orientation": "portrait"
+		},
+		"moreInfoShow": true,
+		"moreInfo": [
+			{
+				"name": "description",
+				"display": "Description",
+				"url": "https://www.sciencebase.gov/catalog/item/4f554260e4b018de15819c88",
+				"show": true
+			}
+		],
+		"formats": [{
+			"name": "geopdf",
+			"display": "GeoPDF",
+			"sbTag": "GeoPDF"
+		}],
+		"extents": [
+			{
+				"name": "7_5x7_5minute",
+				"display": "7.5 x 7.5 minute (1:24,000/1:25,000/1:31,680)",
+				"sbTag": "7.5 x 7.5 minute"
+			},
+			{
+				"name": "7_5x15minute",
+				"display": "7.5 x 15 minute",
+				"sbTag": "7.5 x 15 minute"
+			},
+			{
+				"name": "30x60minute",
+				"display": "30 x 60 minute (1:100,000)",
+				"sbTag": "30 x 60 minute"
+			},
+			{
+				"name": "30x30minute",
+				"display": "30 x 30 minute (1:125,000)",
+				"sbTag": "30 x 30 minute"
+			},
+			{
+				"name": "3_75x3_75minute",
+				"display": "3.75 x 3.75 minute",
+				"sbTag": "3.75 x 3.75 minute"
+			},
+			{
+				"name": "2x1degree",
+				"display": "2 x 1 degree",
+				"sbTag": "2 x 1 degree"
+			},
+			{
+				"name": "15x15minute",
+				"display": "15 x 15 minute (1:48,000/1:62,500/1:63,360)",
+				"sbTag": "15 x 15 minute"
+			},
+			{
+				"name": "1x4degree",
+				"display": "1 x 4 degree",
+				"sbTag": "1 x 4 degree"
+			},
+			{
+				"name": "1x3degree",
+				"display": "1 x 3 degree",
+				"sbTag": "1 x 3 degree"
+			},
+			{
+				"name": "1x2degree",
+				"display": "1 x 2 degree",
+				"sbTag": "1 x 2 degree"
+			},
+
+			{
+				"name": "1x1degree",
+				"display": "1 x 1 degree",
+				"sbTag": "1 x 1 degree"
+			}
+		],
+		"extentsFormats": {
+			"7_5x7_5minute": [{
+				"formatName": "geopdf",
+				"display": "GeoPDF",
+				"formatSbTag": "GeoPDF"
+			}],
+			"7_5x15minute": [{
+				"formatName": "geopdf",
+				"display": "GeoPDF",
+				"formatSbTag": "GeoPDF"
+			}],
+			"30x60minute": [{
+				"formatName": "geopdf",
+				"display": "GeoPDF",
+				"formatSbTag": "GeoPDF"
+			}],
+			"30x30minute": [{
+				"formatName": "geopdf",
+				"display": "GeoPDF",
+				"formatSbTag": "GeoPDF"
+			}],
+			"3_75x3_75minute": [{
+				"formatName": "geopdf",
+				"display": "GeoPDF",
+				"formatSbTag": "GeoPDF"
+			}],
+			"2x1degree": [{
+				"formatName": "geopdf",
+				"display": "GeoPDF",
+				"formatSbTag": "GeoPDF"
+			}],
+			"15x15minute": [{
+				"formatName": "geopdf",
+				"display": "GeoPDF",
+				"formatSbTag": "GeoPDF"
+			}],
+			"1x4degree": [{
+				"formatName": "geopdf",
+				"display": "GeoPDF",
+				"formatSbTag": "GeoPDF"
+			}],
+			"1x3degree": [{
+				"formatName": "geopdf",
+				"display": "GeoPDF",
+				"formatSbTag": "GeoPDF"
+			}],
+			"1x2degree": [{
+				"formatName": "geopdf",
+				"display": "GeoPDF",
+				"formatSbTag": "GeoPDF"
+			}],
+			"1x1degree": [{
+				"formatName": "geopdf",
+				"display": "GeoPDF",
+				"formatSbTag": "GeoPDF"
+			}]
+		},
+		"defaultExtentName": "7_5x7_5minute",
+		"defaultFormatName": "geopdf",
+		"defaultExtentSbTag": "7.5 x 7.5 minute",
+		"defaultFormatSbTag": "GeoPDF",
+		"productDownload" : [
+		{
+			"name": "downloadURL",
+			"display": "Download"
+		}
+	]
+	},
+	{
+		"title": "NHDPlus High Resolution (NHDPlus HR) Beta",
+		"sbDatasetTag": "National Hydrography Dataset Plus High Resolution (NHDPlus HR)",
+		"datasetInternalId": "nhdNhdPlus",
+		"parentInternalId": "nhd",
+		"isData": true,
+		"showThumbOnMap": true,
+		"showThumbOnProdList": true,
+		"filterKeys": ["data", "hydro", "hydrography", "hydrography (nhdplus hr, nhd, wbd)", "nhdplus high resolution (nhdplus hr)", "nhdplus", "nhd", "high resolution", "hu-4", "huc 4", "subregion"],
+		"thumbnail": {
+			"url": "",
+			"orientation": ""
+		},
+		"moreInfoShow": true,
+		"moreInfo": [
+			{
+				"name": "description",
+				"display": "Description",
+				"url": "https://www.sciencebase.gov/catalog/item/57645ff2e4b07657d19ba8e8",
+				"show": true
+			}
+		],
+		"formats": [{
+			"name": "filegdb",
+			"display": "FileGDB",
+			"sbTag": "FileGDB"
+		}],
+		"extents": [{
+			"name": "hu4subregion",
+			"display": "HU-4 Subregion",
+			"sbTag": "HU-4 Subregion",
+			"mapLayer": "4-digit HU"
+		}],
+		"extentsFormats": {
+			"hu4subregion": [				{
+				"formatName": "filegdb",
+				"display": "FileGDB",
+				"formatSbTag": "FileGDB"
+			}]
+		},
+		"defaultExtentName": "hu4subregion",
+		"defaultFormatName": "filegdb",
+		"defaultExtentSbTag": "HU-4 Subregion",
+		"defaultFormatSbTag": "FileGDB",
+		"productDownload" : [
+			{
+				"name": "downloadURL",
+				"display": "Download 1 (Vector)"
+			},
+			{
+				"name": "downloadURLRaster",
+				"display": "Download 2 (Raster)"
+			}
+		]
+	},
+	{
+		"title": "National Hydrography Dataset (NHD)",
+		"sbDatasetTag": "National Hydrography Dataset (NHD) Best Resolution",
+		"datasetInternalId": "nhdNhd",
+		"parentInternalId": "nhd",
+		"isData": true,
+		"showThumbOnMap": true,
+		"showThumbOnProdList": true,
+		"filterKeys": ["data", "hydro", "hydrography", "hydrography (nhdplus hr, nhd, wbd)", "national hydrography dataset (nhd)", "national hydrography dataset", "nhdplus", "nhd", "high resolution", "hu-4", "huc 4", "subregion", "hu-8", "huc 8", "subbasin"],
+		"thumbnail": {
+			"url": "https://thor-f5.er.usgs.gov/ngtoc/metadata/waf/collections/thumbnails/nhd_dillon.jpg",
+			"orientation": "landscape"
+		},
+		"moreInfoShow": true,
+		"moreInfo": [
+			{
+				"name": "description",
+				"display": "Description",
+				"url": "https://www.sciencebase.gov/catalog/item/5136012ce4b03b8ec4025bf7",
+				"show": true
+			}
+		],
+		"formats": [{
+				"name": "filegdb10_1",
+				"display": "FileGDB 10.1",
+				"sbTag": "FileGDB 10.1"
+			},
+			{
+				"name": "shapefile",
+				"display": "Shapefile",
+				"sbTag": "Shapefile"
+			}
+		],
+		"extents": [{
+				"name": "hu4subregion",
+				"display": "HU-4 Subregion",
+				"sbTag": "HU-4 Subregion",
+				"mapLayer": "4-digit HU"
+			},
+			{
+				"name": "hu8subbasin",
+				"display": "HU-8 Subbasin",
+				"sbTag": "HU-8 Subbasin",
+				"mapLayer": "8-digit HU"
+			},
+			{
+				"name": "state",
+				"display": "State",
+				"sbTag": "State",
+				"mapLayer": "U.S. State or Territory"
+			}
+		],
+		"extentsFormats": {
+			"hu4subregion": [{
+					"formatName": "shapefile",
+					"display": "Shapefile",
+					"formatSbTag": "Shapefile"
+				},
+				{
+					"formatName": "filegdb10_1",
+					"display": "FileGDB 10.1",
+					"formatSbTag": "FileGDB 10.1"
+				}
+			],
+			"hu8subbasin": [{
+					"formatName": "shapefile",
+					"display": "Shapefile",
+					"formatSbTag": "Shapefile"
+				},
+				{
+					"formatName": "filegdb10_1",
+					"display": "FileGDB 10.1",
+					"formatSbTag": "FileGDB 10.1"
+				}
+			],
+			"state": [{
+					"formatName": "shapefile",
+					"display": "Shapefile",
+					"formatSbTag": "Shapefile"
+				},
+				{
+					"formatName": "filegdb10_1",
+					"display": "FileGDB 10.1",
+					"formatSbTag": "FileGDB 10.1"
+				}
+			]
+		},
+		"defaultExtentName": "hu4subregion",
+		"defaultFormatName": "filegdb10_1",
+		"defaultExtentSbTag": "HU-4 Subregion",
+		"defaultFormatSbTag": "FileGDB 10.1",
+		"productDownload" : [
+			{
+				"name": "downloadURL",
+				"display": "Download"
+			}
+		]
+	},
+	{
+		"title": "Watershed Boundary Dataset (WBD)",
+		"sbDatasetTag": "National Watershed Boundary Dataset (WBD)",
+		"datasetInternalId": "nhdWbd",
+		"parentInternalId": "nhd",
+		"isData": true,
+		"showThumbOnMap": false,
+		"showThumbOnProdList": true,
+		"filterKeys": ["data", "hydro", "hydrography", "hydrography (nhdplus hr, nhd, wbd)", "watershed boundary dataset (wbd)", "wbd", "watershed", "watershed boundary", "hu-2", "huc 2", "region"],
+		"thumbnail": {
+			"url": "",
+			"orientation": ""
+		},
+		"moreInfoShow": true,
+		"moreInfo": [
+			{
+				"name": "description",
+				"display": "Description",
+				"url": "https://www.sciencebase.gov/catalog/item/51361e87e4b03b8ec4025c22",
+				"show": true
+			}
+		],
+		"formats": [{
+				"name": "filegdb10_1",
+				"display": "FileGDB 10.1",
+				"sbTag": "FileGDB 10.1"
+			},
+			{
+				"name": "shapefile",
+				"display": "Shapefile",
+				"sbTag": "Shapefile"
+			}
+		],
+		"extents": [{
+				"name": "hu2region",
+				"display": "HU-2 Region",
+				"sbTag": "HU-2 Region",
+				"mapLayer": "2-digit HU"
+			},
+			{
+				"name": "national",
+				"display": "National",
+				"sbTag": "National"
+			}
+		],
+		"extentsFormats": {
+			"hu2region": [{
+					"formatName": "shapefile",
+					"display": "Shapefile",
+					"formatSbTag": "Shapefile"
+				},
+				{
+					"formatName": "filegdb10_1",
+					"display": "FileGDB 10.1",
+					"formatSbTag": "FileGDB 10.1"
+				}
+			],
+			"national": [{
+				"formatName": "filegdb10_1",
+				"display": "FileGDB 10.1",
+				"formatSbTag": "FileGDB 10.1"
+			}]
+		},
+		"defaultExtentName": "national",
+		"defaultFormatName": "filegdb10_1",
+		"defaultExtentSbTag": "National",
+		"defaultFormatSbTag": "FileGDB 10.1",
+		"productDownload" : [
+			{
+				"name": "downloadURL",
+				"display": "Download"
+			}
+		]
+	},
+	{
+		"title": "Imagery - 1 meter (NAIP)",
+		"sbDatasetTag": "USDA National Agriculture Imagery Program (NAIP),NAIP Plus High Resolution Orthoimagery",
+		"datasetInternalId": "naipDataset",
+		"parentInternalId": "naip",
+		"isData": true,
+		"showThumbOnMap": true,
+		"showThumbOnProdList": true,
+		"filterKeys": ["data", "imagery - 1 meter (naip)", "imagery", "naip", "1 meter", "jpeg2000"],
+		"thumbnail": {
+			"url": "https://thor-f5.er.usgs.gov/ngtoc/metadata/waf/collections/thumbnails/naip.jpg",
+			"orientation": "portrait"
+		},
+		"moreInfoShow": true,
+		"moreInfo": [
+			{
+				"name": "description",
+				"display": "Description",
+				"url":"https://www.sciencebase.gov/catalog/item/51355312e4b0e1603e4fed62",
+				"show": true
+			}
+		],
+		"formats": [{
+			"name": "jpeg2000",
+			"display": "JPEG2000",
+			"sbTag": "JPEG2000"
+		}],
+		"extents": [{
+			"name": "varies",
+			"display": "Varies",
+			"sbTag": ""
+		}],
+		"extentsFormats": {
+			"3_75x3_75minute": [{
+				"formatName": "jpeg2000",
+				"display": "JPEG2000",
+				"formatSbTag": "JPEG2000"
+			}]
+		},
+		"defaultExtentName": "3_75x3_75minute",
+		"defaultFormatName": "jpeg2000",
+		"defaultExtentSbTag": "3.75 x 3.75 minute",
+		"defaultFormatSbTag": "JPEG2000",
+		"productDownload" : [
+			{
+				"name": "downloadURL",
+				"display": "Download"
+			}
+		]
+	},
+	{
+		"title": "Map Indices",
+		"sbDatasetTag": "Map Indices",
+		"datasetInternalId": "ndbiDataset",
+		"parentInternalId": "nbdmi",
+		"isData": true,
+		"showThumbOnMap": false,
+		"showThumbOnProdList": true,
+		"filterKeys": ["data", "map indices", "map index", "indices", "index", "1 meter", "jpeg2000"],
+		"thumbnail": {
+			"url": "",
+			"orientation": ""
+		},
+		"moreInfoShow": true,
+		"moreInfo": [
+			{
+				"name": "description",
+				"display": "Description",
+				"url": "https://www.sciencebase.gov/catalog/item/53d7cd8ee4b06f0f87b7427b",
+				"show": true
+			}
+		],
+		"formats": [{
+				"name": "filegdb10_1",
+				"display": "FileGDB 10.1",
+				"sbTag": "FileGDB 10.1"
+			},
+			{
+				"name": "shapefile",
+				"display": "Shapefile",
+				"sbTag": "Shapefile"
+			}
+		],
+		"extents": [{
+				"name": "national",
+				"display": "National",
+				"sbTag": "National"
+			},
+			{
+				"name": "state",
+				"display": "State",
+				"sbTag": "State"
+			}
+		],
+		"extentsFormats": {
+			"national": [{
+				"formatName": "filegdb10_1",
+				"display": "FileGDB 10.1",
+				"formatSbTag": "FileGDB 10.1"
+			}],
+			"state": [{
+					"formatName": "shapefile",
+					"display": "Shapefile",
+					"formatSbTag": "Shapefile"
+				},
+				{
+					"formatName": "filegdb10_1",
+					"display": "FileGDB 10.1",
+					"formatSbTag": "FileGDB 10.1"
+				}
+			]
+		},
+		"defaultExtentName": "state",
+		"defaultFormatName": "filegdb10_1",
+		"defaultExtentSbTag": "State",
+		"defaultFormatSbTag": "FileGDB 10.1",
+		"productDownload" : [
+			{
+				"name": "downloadURL",
+				"display": "Download"
+			}
+		]
+	},
+	{
+		"title": "Names - Geographic Names Information System (GNIS)",
+		"sbDatasetTag": "National Geographic Names Information System (GNIS)",
+		"datasetInternalId": "gnisDataset",
+		"parentInternalId": "gnis",
+		"isData": true,
+		"showThumbOnMap": false,
+		"showThumbOnProdList": false,
+		"filterKeys": ["data", "names - geographic names information system (gnis)", "gnis", "names - gnis", "names", "geographic names", "geographic names information system"],
+		"thumbnail": {
+			"url": "",
+			"orientation": ""
+		},
+		"moreInfoShow": true,
+		"moreInfo": [
+			{
+				"name": "description",
+				"display": "Description",
+				"url": "https://www.sciencebase.gov/catalog/item/4f70b292e4b058caae3f8e1d",
+				"show": true
+			}
+		],
+		"formats": [{
+			"name": "txtPipes",
+			"display": "TXT (pipes)",
+			"sbTag": "TXT (pipes)"
+		}],
+		"extents": [{
+				"name": "national",
+				"display": "National",
+				"sbTag": "National"
+			},
+			{
+				"name": "state",
+				"display": "State",
+				"sbTag": "State"
+			}
+		],
+		"extentsFormats": {
+			"national": [{
+				"formatName": "txtPipes",
+				"display": "TXT (pipes)",
+				"formatSbTag": "TXT (pipes)"
+			}],
+			"state": [{
+				"formatName": "txtPipes",
+				"display": "TXT (pipes)",
+				"formatSbTag": "TXT (pipes)"
+			}]
+		},
+		"defaultExtentName": "state",
+		"defaultFormatName": "txtPipes",
+		"defaultExtentSbTag": "State",
+		"defaultFormatSbTag": "TXT (pipes)",
+		"productDownload" : [
+			{
+				"name": "downloadURL",
+				"display": "Download"
+			}
+		]
+	},
+	{
+		"title": "National Land Cover Database (NLCD) - 2001",
+		"sbDatasetTag": "National Land Cover Database (NLCD) - 2001",
+		"datasetInternalId": "nlcd2001",
+		"parentInternalId": "nlcd",
+		"isData": true,
+		"showThumbOnMap": false,
+		"showThumbOnProdList": false,
+		"filterKeys": ["data", "national land cover database", "nlcd", "nlcd 2001", "2001", "national land cover", "land cover", " National Land Cover Database (NLCD)"],
+		"thumbnail": {
+			"url": "",
+			"orientation": ""
+		},
+		"moreInfoShow": true,
+		"moreInfo": [
+			{
+				"name": "description",
+				"display": "Description",
+				"url": "https://www.sciencebase.gov/catalog/item/4f70a45ee4b058caae3f8db9",
+				"show": true
+			}
+		],
+		"formats": [{
+			"name": "geotiff",
+			"display": "GeoTIFF",
+			"sbTag": "GeoTIFF"
+		}],
+		"extents": [{
+				"name": "3x3degree",
+				"display": "3 x 3 degree",
+				"sbTag": "3 x 3 degree"
+			},
+			{
+				"name": "national",
+				"display": "National",
+				"sbTag": "National"
+			},
+			{
+				"name": "state",
+				"display": "State",
+				"sbTag": "State"
+			}
+
+		],
+		"extentsFormats": {
+			"3x3degree": [{
+				"formatName": "geotiff",
+				"display": "GeoTIFF",
+				"formatSbTag": "GeoTIFF"
+			}],
+			"national": [{
+				"formatName": "IMG",
+				"display": "IMG",
+				"formatSbTag": "IMG"
+			}],
+			"state": [{
+				"formatName": "geotiff",
+				"display": "GeoTIFF",
+				"formatSbTag": "GeoTIFF"
+			}]
+		},
+		"defaultExtentName": "3x3degree",
+		"defaultFormatName": "geotiff",
+		"defaultExtentSbTag": "3 x 3 degree",
+		"defaultFormatSbTag": "GeoTIFF",
+		"productDownload" : [
+			{
+				"name": "downloadURL",
+				"display": "Download"
+			}
+		]
+	},
+	{
+		"title": "National Land Cover Database (NLCD) - 2006",
+		"sbDatasetTag": "National Land Cover Database (NLCD) - 2006",
+		"datasetInternalId": "nlcd2006",
+		"parentInternalId": "nlcd",
+		"isData": true,
+		"showThumbOnMap": false,
+		"showThumbOnProdList": false,
+		"filterKeys": ["data", "national land cover database", "nlcd", "nlcd 2006", "2006", "national land cover", "land cover", " National Land Cover Database (NLCD)"],
+		"thumbnail": {
+			"url": "",
+			"orientation": ""
+		},
+		"moreInfoShow": true,
+		"moreInfo": [
+			{
+				"name": "description",
+				"display": "Description",
+				"url": "https://www.sciencebase.gov/catalog/item/4f70a46ae4b058caae3f8dbb",
+				"show": true
+			}
+		],
+		"formats": [{
+			"name": "geotiff",
+			"display": "GeoTIFF",
+			"sbTag": "GeoTIFF"
+		}],
+		"extents": [{
+				"name": "3x3degree",
+				"display": "3 x 3 degree",
+				"sbTag": "3 x 3 degree"
+			},
+			{
+				"name": "national",
+				"display": "National",
+				"sbTag": "National"
+			},
+			{
+				"name": "state",
+				"display": "State",
+				"sbTag": "State"
+			}
+
+		],
+		"extentsFormats": {
+			"3x3degree": [{
+				"formatName": "geotiff",
+				"display": "GeoTIFF",
+				"formatSbTag": "GeoTIFF"
+			}],
+			"national": [{
+				"formatName": "IMG",
+				"display": "IMG",
+				"formatSbTag": "IMG"
+			}],
+			"state": [{
+				"formatName": "geotiff",
+				"display": "GeoTIFF",
+				"formatSbTag": "GeoTIFF"
+			}]
+		},
+		"defaultExtentName": "3x3degree",
+		"defaultFormatName": "geotiff",
+		"defaultExtentSbTag": "3 x 3 degree",
+		"defaultFormatSbTag": "GeoTIFF",
+		"productDownload" : [
+			{
+				"name": "downloadURL",
+				"display": "Download"
+			}
+		]
+	},
+	{
+		"title": "National Land Cover Database (NLCD) - 2011",
+		"sbDatasetTag": "National Land Cover Database (NLCD) - 2011",
+		"datasetInternalId": "nlcd2011",
+		"parentInternalId": "nlcd",
+		"isData": true,
+		"showThumbOnMap": false,
+		"showThumbOnProdList": false,
+		"filterKeys": ["data", "national land cover database", "nlcd", "nlcd 2011", "2011", "national land cover", "land cover", " National Land Cover Database (NLCD)"],
+		"thumbnail": {
+			"url": "",
+			"orientation": ""
+		},
+		"moreInfoShow": true,
+		"moreInfo": [
+			{
+				"name": "description",
+				"display": "Description",
+				"url": "https://www.sciencebase.gov/catalog/item/513624bae4b03b8ec4025c4d",
+				"show": true
+			}
+		],
+		"formats": [{
+			"name": "geotiff",
+			"display": "GeoTIFF",
+			"sbTag": "GeoTIFF"
+		}],
+		"extents": [{
+				"name": "3x3degree",
+				"display": "3 x 3 degree",
+				"sbTag": "3 x 3 degree"
+			},
+			{
+				"name": "national",
+				"display": "National",
+				"sbTag": "National"
+			},
+			{
+				"name": "state",
+				"display": "State",
+				"sbTag": "State"
+			}
+
+		],
+		"extentsFormats": {
+			"3x3degree": [{
+				"formatName": "geotiff",
+				"display": "GeoTIFF",
+				"formatSbTag": "GeoTIFF"
+			}],
+			"national": [{
+				"formatName": "IMG",
+				"display": "IMG",
+				"formatSbTag": "IMG"
+			}],
+			"state": [{
+				"formatName": "geotiff",
+				"display": "GeoTIFF",
+				"formatSbTag": "GeoTIFF"
+			}]
+		},
+		"defaultExtentName": "3x3degree",
+		"defaultFormatName": "geotiff",
+		"defaultExtentSbTag": "3 x 3 degree",
+		"defaultFormatSbTag": "GeoTIFF",
+		"productDownload" : [
+			{
+				"name": "downloadURL",
+				"display": "Download"
+			}
+		]
+	},
+	{
+		"title": "Boundaries (Small-scale)",
+		"sbDatasetTag": "Small-scale Datasets - Boundaries",
+		"datasetInternalId": "sscaleBoundaries",
+		"parentInternalId": "smallscale",
+		"isData": true,
+		"showThumbOnMap": false,
+		"showThumbOnProdList": false,
+		"filterKeys": ["data", "small scale boundaries", "small-scale boundaries", "small scale", "small-scale", "small", "boundaries", "Small-scale Datasets"],
+		"thumbnail": {
+			"url": "",
+			"orientation": ""
+		},
+		"moreInfoShow": false,
+		"moreInfo": [
+			{
+				"name": "description",
+				"display": "Description",
+				"url": "",
+				"show": false
+			}
+		],
+		"formats": [{
+				"name": "arcexport",
+				"display": "ArcExport",
+				"sbTag": "ArcExport"
+			},
+			{
+				"name": "filegdb10_1",
+				"display": "FileGDB 10.1",
+				"sbTag": "FileGDB 10.1"
+			},
+			{
+				"name": "shapefile",
+				"display": "Shapefile",
+				"sbTag": "Shapefile"
+			}
+		],
+		"extents": [{
+				"name": "national",
+				"display": "National",
+				"sbTag": "National"
+			},
+			{
+				"name": "northAmerica",
+				"display": "North America",
+				"sbTag": "North America"
+			}
+		],
+		"extentsFormats": {
+			"national": [{
+					"formatName": "filegdb10_1",
+					"display": "FileGDB 10.1",
+					"formatSbTag": "FileGDB 10.1"
+				},
+				{
+					"formatName": "shapefile",
+					"display": "Shapefile",
+					"formatSbTag": "Shapefile"
+				}
+			],
+			"northAmerica": [{
+					"formatName": "arcExport",
+					"display": "ArcExport",
+					"formatSbTag": "ArcExport"
+				},
+				{
+					"formatName": "shapefile",
+					"display": "Shapefile",
+					"formatSbTag": "Shapefile"
+				}
+			]
+		},
+		"defaultExtentName": "national",
+		"defaultFormatName": "filegdb10_1",
+		"defaultExtentSbTag": "National",
+		"defaultFormatSbTag": "FileGDB 10.1",
+		"productDownload" : [
+			{
+				"name": "downloadURL",
+				"display": "Download"
+			}
+		]
+	},
+	{
+		"title": "Contours (Small-scale)",
+		"sbDatasetTag": "Small-scale Datasets - Contours",
+		"datasetInternalId": "sscaleContours",
+		"parentInternalId": "smallscale",
+		"isData": true,
+		"showThumbOnMap": false,
+		"showThumbOnProdList": false,
+		"filterKeys": ["data", "small scale contours", "small-scale contours", "small scale", "small-scale", "small", "contours", "Small-scale Datasets"],
+		"thumbnail": {
+			"url": "",
+			"orientation": ""
+		},
+		"moreInfoShow": false,
+		"moreInfo": [
+			{
+				"name": "description",
+				"display": "Description",
+				"url": "",
+				"show": false
+			}
+		],
+		"formats": [{
+				"name": "filegdb10_1",
+				"display": "FileGDB 10.1",
+				"sbTag": "FileGDB 10.1"
+			},
+			{
+				"name": "shapefile",
+				"display": "Shapefile",
+				"sbTag": "Shapefile"
+			}
+		],
+		"extents": [{
+			"name": "national",
+			"display": "National",
+			"sbTag": "National"
+		}],
+		"extentsFormats": {
+			"national": [{
+					"formatName": "filegdb10_1",
+					"display": "FileGDB 10.1",
+					"formatSbTag": "FileGDB 10.1"
+				},
+				{
+					"formatName": "shapefile",
+					"display": "Shapefile",
+					"formatSbTag": "Shapefile"
+				}
+			]
+		},
+		"defaultExtentName": "national",
+		"defaultFormatName": "shapefile",
+		"defaultExtentSbTag": "National",
+		"defaultFormatSbTag": "Shapefile",
+		"productDownload" : [
+			{
+				"name": "downloadURL",
+				"display": "Download"
+			}
+		]
+	},
+	{
+		"title": "Elevation (Small-scale)",
+		"sbDatasetTag": "Small-scale Datasets - Elevation",
+		"datasetInternalId": "sscaleElev",
+		"parentInternalId": "smallscale",
+		"isData": true,
+		"showThumbOnMap": false,
+		"showThumbOnProdList": false,
+		"filterKeys": ["data", "small scale elevation", "small-scale elevation", "small scale", "small-scale", "small", "elevation", "Small-scale Datasets"],
+		"thumbnail": {
+			"url": "",
+			"orientation": ""
+		},
+		"moreInfoShow": false,
+		"moreInfo": [
+			{
+				"name": "description",
+				"display": "Description",
+				"url": "",
+				"show": false
+			}
+		],
+		"formats": [{
+				"name": "arcexport",
+				"display": "ArcExport",
+				"sbTag": "ArcExport"
+			},
+			{
+				"name": "bil",
+				"display": "BIL",
+				"sbTag": "BIL"
+			},
+			{
+				"name": "geotiff",
+				"display": "GeoTIFF",
+				"sbTag": "GeoTIFF"
+			},
+			{
+				"name": "shapefile",
+				"display": "Shapefile",
+				"sbTag": "Shapefile"
+			},
+			{
+				"name": "tiff",
+				"display": "TIFF",
+				"sbTag": "TIFF"
+			}
+
+		],
+		"extents": [{
+				"name": "contiguousUs",
+				"display": "Contiguous US",
+				"sbTag": "Contiguous US"
+			},
+			{
+				"name": "northAmerica",
+				"display": "North America",
+				"sbTag": "North America"
+			},
+			{
+				"name": "state",
+				"display": "State",
+				"sbTag": "State"
+			}
+		],
+		"extentsFormats": {
+			"contiguousUs": [{
+					"formatName": "tiff",
+					"display": "TIFF",
+					"formatSbTag": "TIFF"
+				},
+				{
+					"formatName": "geotiff",
+					"display": "GeoTIFF",
+					"formatSbTag": "GeoTIFF"
+				},
+				{
+					"formatName": "bil",
+					"display": "BIL",
+					"formatSbTag": "BIL"
+				}
+			],
+			"northAmerica": [{
+					"formatName": "arcExport",
+					"display": "ArcExport",
+					"formatSbTag": "ArcExport"
+				},
+				{
+					"formatName": "geotiff",
+					"display": "GeoTIFF",
+					"formatSbTag": "GeoTIFF"
+				},
+				{
+					"formatName": "shapefile",
+					"display": "Shapefile",
+					"formatSbTag": "Shapefile"
+				}
+			],
+			"state": [{
+					"formatName": "tiff",
+					"display": "TIFF",
+					"formatSbTag": "TIFF"
+				},
+				{
+					"formatName": "geotiff",
+					"display": "GeoTIFF",
+					"formatSbTag": "GeoTIFF"
+				}
+			]
+		},
+		"defaultExtentName": "contiguousUs",
+		"defaultFormatName": "geotiff",
+		"defaultExtentSbTag": "Contiguous US",
+		"defaultFormatSbTag": "GeoTIFF",
+		"productDownload" : [
+			{
+				"name": "downloadURL",
+				"display": "Download"
+			}
+		]
+	},
+	{
+		"title": "Hydrography (Small-scale)",
+		"sbDatasetTag": "Small-scale Datasets - Hydrography",
+		"datasetInternalId": "sscaleHydro",
+		"parentInternalId": "smallscale",
+		"isData": true,
+		"showThumbOnMap": false,
+		"showThumbOnProdList": false,
+		"filterKeys": ["data", "small scale hydrography", "small-scale hydrography", "small scale", "small-scale", "small", "hydrography", "hydro", "Small-scale Datasets"],
+		"thumbnail": {
+			"url": "",
+			"orientation": ""
+		},
+		"moreInfoShow": false,
+		"moreInfo": [
+			{
+				"name": "description",
+				"display": "Description",
+				"url": "",
+				"show": false
+			}
+		],
+		"formats": [{
+				"name": "arcexport",
+				"display": "ArcExport",
+				"sbTag": "ArcExport"
+			},
+			{
+				"name": "filegdb10_1",
+				"display": "FileGDB 10.1",
+				"sbTag": "FileGDB 10.1"
+			},
+			{
+				"name": "shapefile",
+				"display": "Shapefile",
+				"sbTag": "Shapefile"
+			}
+		],
+		"extents": [{
+				"name": "contiguousUs",
+				"display": "Contiguous US",
+				"sbTag": "Contiguous US"
+			},
+			{
+				"name": "national",
+				"display": "National",
+				"sbTag": "National"
+			},
+			{
+				"name": "northAmerica",
+				"display": "North America",
+				"sbTag": "North America"
+			}
+		],
+		"extentsFormats": {
+			"contiguousUs": [{
+				"formatName": "filegdb10_1",
+				"display": "FileGDB 10.1",
+				"formatSbTag": "FileGDB 10.1"
+			}],
+			"national": [{
+					"formatName": "shapefile",
+					"display": "Shapefile",
+					"formatSbTag": "Shapefile"
+				},
+				{
+					"formatName": "filegdb10_1",
+					"display": "FileGDB 10.1",
+					"formatSbTag": "FileGDB 10.1"
+				}
+			],
+			"northAmerica": [{
+					"formatName": "shapefile",
+					"display": "Shapefile",
+					"formatSbTag": "Shapefile"
+				},
+				{
+					"formatName": "arcExport",
+					"display": "ArcExport",
+					"formatSbTag": "ArcExport"
+				}
+			]
+		},
+		"defaultExtentName": "contiguousUs",
+		"defaultFormatName": "filegdb10_1",
+		"defaultExtentSbTag": "Contiguous US",
+		"defaultFormatSbTag": "FileGDB 10.1",
+		"productDownload" : [
+			{
+				"name": "downloadURL",
+				"display": "Download"
+			}
+		]
+	},
+	{
+		"title": "Land Cover (Small-scale)",
+		"sbDatasetTag": "Small-scale Datasets - Land Cover",
+		"datasetInternalId": "sscaleLandCover",
+		"parentInternalId": "smallscale",
+		"isData": true,
+		"showThumbOnMap": false,
+		"showThumbOnProdList": false,
+		"filterKeys": ["data", "small scale land cover", "small-scale land cover", "small scale", "small-scale", "small", "land cover", "Small-scale Datasets"],
+		"thumbnail": {
+			"url": "",
+			"orientation": ""
+		},
+		"moreInfoShow": false,
+		"moreInfo": [
+			{
+				"name": "description",
+				"display": "Description",
+				"url": "",
+				"show": false
+			}
+		],
+		"formats": [{
+				"name": "geotiff",
+				"display": "GeoTIFF",
+				"sbTag": "GeoTIFF"
+			},
+			{
+				"name": "tiff",
+				"display": "TIFF",
+				"sbTag": "TIFF"
+			}
+		],
+		"extents": [{
+				"name": "contiguousUs",
+				"display": "Contiguous US",
+				"sbTag": "Contiguous US"
+			},
+			{
+				"name": "northAmerica",
+				"display": "North America",
+				"sbTag": "North America"
+			},
+			{
+				"name": "state",
+				"display": "State",
+				"sbTag": "State"
+			}
+		],
+		"extentsFormats": {
+			"contiguousUs": [{
+					"formatName": "geotiff",
+					"display": "GeoTIFF",
+					"formatSbTag": "GeoTIFF"
+				},
+				{
+					"formatName": "tiff",
+					"display": "TIFF",
+					"formatSbTag": "TIFF"
+				}
+			],
+			"northAmerica": [{
+				"formatName": "geotiff",
+				"display": "GeoTIFF",
+				"formatSbTag": "GeoTIFF"
+			}],
+			"state": [{
+					"formatName": "geotiff",
+					"display": "GeoTIFF",
+					"formatSbTag": "GeoTIFF"
+				},
+				{
+					"formatName": "tiff",
+					"display": "TIFF",
+					"formatSbTag": "TIFF"
+				}
+			]
+		},
+		"defaultExtentName": "contiguousUs",
+		"defaultFormatName": "geotiff",
+		"defaultExtentSbTag": "Contiguous US",
+		"defaultFormatSbTag": "GeoTIFF",
+		"productDownload" : [
+			{
+				"name": "downloadURL",
+				"display": "Download"
+			}
+		]
+	},
+	{
+		"title": "Orthoimagery (Small-scale)",
+		"sbDatasetTag": "Small-scale Datasets - Orthoimagery",
+		"datasetInternalId": "sscaleOrtho",
+		"parentInternalId": "smallscale",
+		"isData": true,
+		"showThumbOnMap": false,
+		"showThumbOnProdList": false,
+		"filterKeys": ["data", "small scale orthoimagery", "small-scale orthoimagery", "small scale", "small-scale", "small", "orthoimagery", "Small-scale Datasets"],
+		"thumbnail": {
+			"url": "",
+			"orientation": ""
+		},
+		"moreInfoShow": false,
+		"moreInfo": [
+			{
+				"name": "description",
+				"display": "Description",
+				"url": "",
+				"show": false
+			}
+		],
+		"formats": [{
+			"name": "geotiff",
+			"display": "GeoTIFF",
+			"sbTag": "GeoTIFF"
+		}],
+		"extents": [{
+				"name": "contiguousUs",
+				"display": "Contiguous US",
+				"sbTag": "Contiguous US"
+			},
+			{
+				"name": "state",
+				"display": "State",
+				"sbTag": "State"
+			}
+
+		],
+		"extentsFormats": {
+			"contiguousUs": [{
+				"formatName": "geotiff",
+				"display": "GeoTIFF",
+				"formatSbTag": "GeoTIFF"
+			}],
+			"state": [{
+				"formatName": "geotiff",
+				"display": "GeoTIFF",
+				"formatSbTag": "GeoTIFF"
+			}]
+		},
+		"defaultExtentName": "contiguousUs",
+		"defaultFormatName": "geotiff",
+		"defaultExtentSbTag": "Contiguous US",
+		"defaultFormatSbTag": "GeoTIFF",
+		"productDownload" : [
+			{
+				"name": "downloadURL",
+				"display": "Download"
+			}
+		]
+	},
+	{
+		"title": "Structures (Small-scale)",
+		"sbDatasetTag": "Small-scale Datasets - Structures",
+		"datasetInternalId": "sscaleStructures",
+		"parentInternalId": "smallscale",
+		"isData": true,
+		"showThumbOnMap": false,
+		"showThumbOnProdList": false,
+		"filterKeys": ["data", "small scale structures", "small-scale structures", "small scale", "small-scale", "small", "structures", "Small-scale Datasets"],
+		"thumbnail": {
+			"url": "",
+			"orientation": ""
+		},
+		"moreInfoShow": false,
+		"moreInfo": [
+			{
+				"name": "description",
+				"display": "Description",
+				"url": "",
+				"show": false
+			}
+		],
+		"formats": [{
+				"name": "arcexport",
+				"display": "ArcExport",
+				"sbTag": "ArcExport"
+			},
+			{
+				"name": "filegdb10_1",
+				"display": "FileGDB 10.1",
+				"sbTag": "FileGDB 10.1"
+			},
+			{
+				"name": "shapefile",
+				"display": "Shapefile",
+				"sbTag": "Shapefile"
+			}
+		],
+		"extents": [{
+				"name": "national",
+				"display": "National",
+				"sbTag": "National"
+			},
+			{
+				"name": "northAmerica",
+				"display": "North America",
+				"sbTag": "North America"
+			}
+		],
+		"extentsFormats": {
+			"national": [{
+					"formatName": "shapefile",
+					"display": "Shapefile",
+					"formatSbTag": "Shapefile"
+				},
+				{
+					"formatName": "filegdb10_1",
+					"display": "FileGDB 10.1",
+					"formatSbTag": "FileGDB 10.1"
+				}
+			],
+			"northAmerica": [{
+					"formatName": "shapefile",
+					"display": "Shapefile",
+					"formatSbTag": "Shapefile"
+				},
+				{
+					"formatName": "arcExport",
+					"display": "ArcExport",
+					"formatSbTag": "ArcExport"
+				}
+			]
+		},
+		"defaultExtentName": "national",
+		"defaultFormatName": "filegdb10_1",
+		"defaultExtentSbTag": "National",
+		"defaultFormatSbTag": "FileGDB 10.1",
+		"productDownload" : [
+			{
+				"name": "downloadURL",
+				"display": "Download"
+			}
+		]
+	},
+	{
+		"title": "Transportation (Small-scale)",
+		"sbDatasetTag": "Small-scale Datasets - Transportation",
+		"datasetInternalId": "sscaleTrans",
+		"parentInternalId": "smallscale",
+		"isData": true,
+		"showThumbOnMap": false,
+		"showThumbOnProdList": false,
+		"filterKeys": ["data", "small scale transportation", "small-scale transportation", "small scale", "small-scale", "small", "transportation", "Small-scale Datasets"],
+		"thumbnail": {
+			"url": "",
+			"orientation": ""
+		},
+		"moreInfoShow": false,
+		"moreInfo": [
+			{
+				"name": "description",
+				"display": "Description",
+				"url": "",
+				"show": false
+			}
+		],
+		"formats": [{
+				"name": "arcexport",
+				"display": "ArcExport",
+				"sbTag": "ArcExport"
+			},
+			{
+				"name": "filegdb10_1",
+				"display": "FileGDB 10.1",
+				"sbTag": "FileGDB 10.1"
+			},
+			{
+				"name": "shapefile",
+				"display": "Shapefile",
+				"sbTag": "Shapefile"
+			}
+		],
+		"extents": [{
+				"name": "national",
+				"display": "National",
+				"sbTag": "National"
+			},
+			{
+				"name": "northAmerica",
+				"display": "North America",
+				"sbTag": "North America"
+			}
+		],
+		"extentsFormats": {
+			"national": [{
+					"formatName": "shapefile",
+					"display": "Shapefile",
+					"formatSbTag": "Shapefile"
+				},
+				{
+					"formatName": "filegdb10_1",
+					"display": "FileGDB 10.1",
+					"formatSbTag": "FileGDB 10.1"
+				}
+			],
+			"northAmerica": [{
+					"formatName": "arcExport",
+					"display": "ArcExport",
+					"formatSbTag": "ArcExport"
+				},
+				{
+					"formatName": "shapefile",
+					"display": "Shapefile",
+					"formatSbTag": "Shapefile"
+				}
+			]
+		},
+		"defaultExtentName": "national",
+		"defaultFormatName": "filegdb10_1",
+		"defaultExtentSbTag": "National",
+		"defaultFormatSbTag": "FileGDB 10.1",
+		"productDownload" : [
+			{
+				"name": "downloadURL",
+				"display": "Download"
+			}
+		]
+	},
+	{
+		"title": "Structures - National Structures Dataset",
+		"sbDatasetTag": "National Structures Dataset (NSD)",
+		"datasetInternalId": "nsdDataset",
+		"parentInternalId": "nsd",
+		"isData": true,
+		"showThumbOnMap": false,
+		"showThumbOnProdList": true,
+		"filterKeys": ["data", "national structures dataset", "structures", "nsd"],
+		"thumbnail": {
+			"url": "https://thor-f5.er.usgs.gov/ngtoc/metadata/waf/collections/thumbnails/structures_thumbnail.jpg",
+			"orientation": "landscape"
+		},
+		"moreInfoShow": true,
+		"moreInfo": [
+			{
+				"name": "description",
+				"display": "Description",
+				"url": "https://www.sciencebase.gov/catalog/item/4f70b240e4b058caae3f8e1b",
+				"show": true
+			}
+		],
+		"formats": [{
+				"name": "filegdb10_1",
+				"display": "FileGDB 10.1",
+				"sbTag": "FileGDB 10.1"
+			},
+			{
+				"name": "shapefile",
+				"display": "Shapefile",
+				"sbTag": "Shapefile"
+			}
+		],
+		"extents": [{
+				"name": "national",
+				"display": "National",
+				"sbTag": "National"
+			},
+			{
+				"name": "state",
+				"display": "State",
+				"sbTag": "State"
+			}
+		],
+		"extentsFormats": {
+			"national": [{
+				"formatName": "filegdb10_1",
+				"display": "FileGDB 10.1",
+				"formatSbTag": "FileGDB 10.1"
+			}],
+			"state": [{
+					"formatName": "filegdb10_1",
+					"display": "FileGDB 10.1",
+					"formatSbTag": "FileGDB 10.1"
+				},
+				{
+					"formatName": "shapefile",
+					"display": "Shapefile",
+					"formatSbTag": "Shapefile"
+				}
+			]
+		},
+		"defaultExtentName": "state",
+		"defaultFormatName": "filegdb10_1",
+		"defaultExtentSbTag": "State",
+		"defaultFormatSbTag": "FileGDB 10.1",
+		"productDownload" : [
+			{
+				"name": "downloadURL",
+				"display": "Download"
+			}
+		]
+	},
+	{
+		"title": "Topo Map Data and Topo Stylesheet",
+		"sbDatasetTag": "Combined Vector",
+		"datasetInternalId": "topoMapStyle",
+		"parentInternalId": "vectorcmb",
+		"isData": true,
+		"showThumbOnMap": true,
+		"showThumbOnProdList": true,
+		"filterKeys": ["data", "topo map data and topo stylesheet", "topo", "topo map", "topo stylesheet", "stylesheet"],
+		"thumbnail": {
+			"url": "https://thor-f5.er.usgs.gov/ngtoc/metadata/waf/collections/thumbnails/tnm_stylesheet_template.jpg",
+			"orientation": "portrait"
+		},
+		"moreInfoShow": true,
+		"moreInfo": [
+			{
+				"name": "description",
+				"display": "Description",
+				"url": "https://viewer.nationalmap.gov/tools/topotemplate/",
+				"show": true
+			},
+			{
+				"name": "description",
+				"display": "Stylesheet Zip",
+				"url": "https://viewer.nationalmap.gov/tools/topotemplate/contents/Topo_TNM_Style_Template.zip",
+				"show": true
+			}
+		],
+		"formats": [{
+				"name": "filegdb10_1",
+				"display": "FileGDB 10.1",
+				"sbTag": "FileGDB 10.1"
+			},
+			{
+				"name": "shapefile",
+				"display": "Shapefile",
+				"sbTag": "Shapefile"
+			}
+		],
+		"extents": [{
+			"name": "7_5x7_5minute",
+			"display": "7.5 x 7.5 minute",
+			"sbTag": "7.5 x 7.5 minute"
+		}],
+		"extentsFormats": {
+			"7_5x7_5minute": [{
+					"formatName": "filegdb10_1",
+					"display": "FileGDB 10.1",
+					"formatSbTag": "FileGDB 10.1"
+				},
+				{
+					"formatName": "shapefile",
+					"display": "Shapefile",
+					"formatSbTag": "Shapefile"
+				}
+			]
+		},
+		"defaultExtentName": "7_5x7_5minute",
+		"defaultFormatName": "filegdb10_1",
+		"defaultExtentSbTag": "7.5 x 7.5 minute",
+		"defaultFormatSbTag": "FileGDB 10.1",
+		"productDownload" : [
+			{
+				"name": "downloadURL",
+				"display": "Download"
+			}
+		]
+	},
+	{
+		"title": "National Transportation Dataset",
+		"sbDatasetTag": "National Transportation Dataset (NTD)",
+		"datasetInternalId": "ntdNtd",
+		"parentInternalId": "ntd",
+		"isData": true,
+		"showThumbOnMap": false,
+		"showThumbOnProdList": true,
+		"filterKeys": ["data", "national transportation dataset", "national transportation", "transportation", "ntd"],
+		"thumbnail": {
+			"url": "https://thor-f5.er.usgs.gov/ngtoc/metadata/waf/collections/thumbnails/transportation_thumbnail.jpg",
+			"orientation": "landscape"
+		},
+		"moreInfoShow": true,
+		"moreInfo": [
+			{
+				"name": "description",
+				"display": "Description",
+				"url": "https://www.sciencebase.gov/catalog/item/4f70b1f4e4b058caae3f8e16",
+				"show": true
+			}
+		],
+		"formats": [{
+				"name": "filegdb10_1",
+				"display": "FileGDB 10.1",
+				"sbTag": "FileGDB 10.1"
+			},
+			{
+				"name": "shapefile",
+				"display": "Shapefile",
+				"sbTag": "Shapefile"
+			}
+		],
+		"extents": [{
+				"name": "national",
+				"display": "National",
+				"sbTag": "National"
+			},
+			{
+				"name": "state",
+				"display": "State",
+				"sbTag": "State"
+			}
+		],
+		"extentsFormats": {
+			"national": [{
+				"formatName": "filegdb10_1",
+				"display": "FileGDB 10.1",
+				"formatSbTag": "FileGDB 10.1"
+			}],
+			"state": [{
+					"formatName": "shapefile",
+					"display": "Shapefile",
+					"formatSbTag": "Shapefile"
+				},
+				{
+					"formatName": "filegdb10_1",
+					"display": "FileGDB 10.1",
+					"formatSbTag": "FileGDB 10.1"
+				}
+			]
+		},
+		"defaultExtentName": "state",
+		"defaultFormatName": "filegdb10_1",
+		"defaultExtentSbTag": "State",
+		"defaultFormatSbTag": "FileGDB 10.1",
+		"productDownload" : [
+			{
+				"name": "downloadURL",
+				"display": "Download"
+			}
+		]
+	},
+	{
+		"title": "USFS Roads",
+		"sbDatasetTag": "US Forest Service Roads",
+		"datasetInternalId": "ntdUsfs",
+		"parentInternalId": "ntd",
+		"isData": true,
+		"showThumbOnMap": false,
+		"showThumbOnProdList": false,
+		"filterKeys": ["data", "national transportation dataset", "national transportation", "forest service roads", "us forest service roads", "transportation", "ntd", "transportation - national, state"],
+		"thumbnail": {
+			"url": "",
+			"orientation": ""
+		},
+		"moreInfoShow": true,
+		"moreInfo": [
+			{
+				"name": "description",
+				"display": "Description",
+				"url": "https://www.sciencebase.gov/catalog/item/56b9fc25e4b08d617f648ecc",
+				"show": true
+			}
+		],
+		"formats": [{
+				"name": "filegdb10_1",
+				"display": "FileGDB 10.1",
+				"sbTag": "FileGDB 10.1"
+			},
+			{
+				"name": "shapefile",
+				"display": "Shapefile",
+				"sbTag": "Shapefile"
+			}
+		],
+		"extents": [{
+			"name": "state",
+			"display": "State",
+			"sbTag": "State"
+		}],
+		"extentsFormats": {
+			"state": [{
+					"formatName": "shapefile",
+					"display": "Shapefile",
+					"formatSbTag": "Shapefile"
+				},
+				{
+					"formatName": "filegdb10_1",
+					"display": "FileGDB 10.1",
+					"formatSbTag": "FileGDB 10.1"
+				}
+			]
+		},
+		"defaultExtentName": "state",
+		"defaultFormatName": "filegdb10_1",
+		"defaultExtentSbTag": "State",
+		"defaultFormatSbTag": "FileGDB 10.1",
+		"productDownload" : [
+			{
+				"name": "downloadURL",
+				"display": "Download"
+			}
+		]
+	},
+	{
+		"title": "US Topo Current",
+		"sbDatasetTag": "US Topo Current",
+		"datasetInternalId": "ustopoCurrent",
+		"parentInternalId": "ustopo",
+		"isData": false,
+		"showThumbOnMap": false,
+		"showThumbOnProdList": true,
+		"filterKeys": ["map", "us topo current", "us topo", "topo"],
+		"thumbnail": {
+			"url": "https://thor-f5.er.usgs.gov/ngtoc/metadata/waf/collections/thumbnails/ms_tupelo_20150625.jpg",
+			"orientation": "portrait"
+		},
+		"moreInfoShow": true,
+		"moreInfo": [
+			{
+				"name": "description",
+				"display": "Description",
+				"url":"https://www.sciencebase.gov/catalog/item/4f554236e4b018de15819c85",
+				"show": true
+			}
+		],
+		"formats": [{
+			"name": "geopdfgeospatialpdf",
+			"display": "GeoPDF/GeospatialPDF",
+			"sbTag": ""
+		}],
+		"extents": [{
+			"name": "7_5x7_5minute",
+			"display": "7.5 x 7.5 minute",
+			"sbTag": "7.5 x 7.5 minute"
+		}],
+		"extentsFormats": {
+			"7_5x7_5minute": [{
+				"formatName": "geopdfgeospatialpdf",
+				"display": "GeoPDF/GeospatialPDF",
+				"formatSbTag": ""
+			}]
+		},
+		"defaultExtentName": "7_5x7_5minute",
+		"defaultFormatName": "geopdfgeospatialpdf",
+		"defaultExtentSbTag": "7.5 x 7.5 minute",
+		"defaultFormatSbTag": "",
+		"productDownload" : [
+			{
+				"name": "downloadURL",
+				"display": "Download"
+			}
+		]
+	},
+	{
+		"title": "US Topo Non-Current",
+		"sbDatasetTag": "US Topo Historical",
+		"datasetInternalId": "ustopoHistorical",
+		"parentInternalId": "ustopo",
+		"isData": false,
+		"showThumbOnMap": false,
+		"showThumbOnProdList": true,
+		"filterKeys": ["map", "us topo non-current", "us topo", "topo"],
+		"thumbnail": {
+			"url": "",
+			"orientation": ""
+		},
+		"moreInfoShow": true,
+		"moreInfo": [
+			{
+				"name": "description",
+				"display": "Description",
+				"url": "https://www.sciencebase.gov/catalog/item/4f554236e4b018de15819c85",
+				"show": true
+			}
+		],
+		"formats": [{
+			"name": "geopdf",
+			"display": "GeoPDF",
+			"sbTag": "GeoPDF"
+		}],
+		"extents": [{
+			"name": "7_5x7_5minute",
+			"display": "7.5 x 7.5 minute",
+			"sbTag": "7.5 x 7.5 minute"
+		}],
+		"extentsFormats": {
+			"7_5x7_5minute": [{
+				"formatName": "geopdf",
+				"display": "GeoPDF",
+				"formatSbTag": "GeoPDF"
+			}]
+		},
+		"defaultExtentName": "7_5x7_5minute",
+		"defaultFormatName": "geopdf",
+		"defaultExtentSbTag": "7.5 x 7.5 minute",
+		"defaultFormatSbTag": "GeoPDF",
+		"productDownload" : [
+			{
+				"name": "downloadURL",
+				"display": "Download"
+			}
+		]
+	},
+	{
+		"title": "Woodland Tint",
+		"sbDatasetTag": "Land Cover - Woodland",
+		"datasetInternalId": "woodlandDataset",
+		"parentInternalId": "woodland",
+		"isData": true,
+		"showThumbOnMap": false,
+		"showThumbOnProdList": true,
+		"filterKeys": ["data", "woodland tint", "land cover - woodland", "land cover", "woodland"],
+		"thumbnail": {
+			"url": "",
+			"orientation": ""
+		},
+		"moreInfoShow": true,
+		"moreInfo": [
+			{
+				"name": "description",
+				"display": "Description",
+				"url": "https://www.sciencebase.gov/catalog/item/5318a64ee4b051b1b924ea2c",
+				"show": true
+			}
+		],
+		"formats": [{
+				"name": "filegdb10_1",
+				"display": "FileGDB 10.1",
+				"sbTag": "FileGDB 10.1"
+			},
+			{
+				"name": "shapefile",
+				"display": "Shapefile",
+				"sbTag": "Shapefile"
+			}
+		],
+		"extents": [{
+				"name": "national",
+				"display": "National",
+				"sbTag": "National"
+			},
+			{
+				"name": "state",
+				"display": "State",
+				"sbTag": "State"
+			}
+		],
+		"extentsFormats": {
+			"national": [{
+				"formatName": "filegdb10_1",
+				"display": "FileGDB 10.1",
+				"formatSbTag": "FileGDB 10.1"
+			}],
+			"state": [{
+					"formatName": "shapefile",
+					"display": "Shapefile",
+					"formatSbTag": "Shapefile"
+				},
+				{
+					"formatName": "filegdb10_1",
+					"display": "FileGDB 10.1",
+					"formatSbTag": "FileGDB 10.1"
+				}
+			]
+		},
+		"defaultExtentName": "state",
+		"defaultFormatName": "filegdb10_1",
+		"defaultExtentSbTag": "State",
+		"defaultFormatSbTag": "FileGDB 10.1",
+		"productDownload" : [
+			{
+				"name": "downloadURL",
+				"display": "Download"
+			}
+		]
+	}
+]
