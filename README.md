@@ -1,10 +1,15 @@
  
-# data-download-prototype #
- 
-----------
-Built on create-react-app
+# data-download-prototype  #
+ ----------
 
-To install
+### Built on React/Redux, Leaflet
+
+#### Demo
+<a href="https://rumi-w-2018.github.io/data-download-prototype/index.html">
+Open Application</a>
+
+
+### Install
 
 
     npm install
@@ -36,7 +41,7 @@ To build with REACT_APP_ENV=development in Windows.
     npm run build-win-dev
 
 
-Added below to package.json.  This sets the correct root path used in the generated HTML file.
+Add below to package.json.  This sets the correct root path used in the generated HTML file.
 
 
     "homepage": ".",
