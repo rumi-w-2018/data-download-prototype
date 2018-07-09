@@ -3,7 +3,8 @@ const defer = require('promise-defer');
 
 const AsyncPriorityQueue = (config = {}) => {
     const {debug, maxParallel, processingFrequency} = Object.assign({debug: true, maxParallel: 2, processingFrequency: 30}, config);
-    let q = [], active = [], interval;
+    let q = [], interval; //active = []
+    const active = {};
     //debug && console.log(`instantiating AsyncPriorityQueue with max parallelism of ${maxParallel} and processingFrequency of ${processingFrequency} ms`);
 
     const cleanup = (task) => () => {
