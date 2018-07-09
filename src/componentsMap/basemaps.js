@@ -1,5 +1,5 @@
 import React, { Component }from 'react';
-import esri from 'esri-leaflet';
+import {tiledMapLayer, dynamicMapLayer} from 'esri-leaflet';
 import { basemaps } from  '../config/map_config';
 
 const imgBaseUrl = './img';
@@ -38,7 +38,7 @@ class Basemaps extends Component {
         if(this.basemap) this.props.map.removeLayer(this.basemap);
 
         if(basemap.serviceType === 'tiled'){
-            this.basemap = esri.tiledMapLayer({
+            this.basemap = tiledMapLayer({
                 url: basemap.url,
                 minZoom: basemap.minZoomLevel,
                 maxZoom: basemap.maxZoomLevel,
@@ -46,7 +46,7 @@ class Basemaps extends Component {
                 zIndex: 0
             });
         }else if (basemap.serviceType === 'dynamic'){
-            this.basemap = esri.dynamicMapLayer({
+            this.basemap = dynamicMapLayer({
                 url: basemap.url,
                 minZoom: basemap.minZoomLevel,
                 maxZoom: basemap.maxZoomLevel,

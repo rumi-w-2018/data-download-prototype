@@ -1,6 +1,6 @@
 import React, { Component }from 'react';
 import L from 'leaflet';
-import esri from 'esri-leaflet';
+import {dynamicMapLayer} from 'esri-leaflet';
 import { selectablePolys } from  '../config/map_config';
 
 class SelectablePolygons extends Component {
@@ -47,7 +47,7 @@ class SelectablePolygons extends Component {
             if(this.selectablePoly && this.props.map.hasLayer(this.selectablePoly)){
                 this.props.map.removeLayer(this.selectablePoly);
             }
-            this.selectablePoly = esri.dynamicMapLayer({
+            this.selectablePoly = dynamicMapLayer({
                 url: selectablePoly.url,
                 name: selectablePoly.name,
                 type: selectablePoly.serviceType,
