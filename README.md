@@ -1,6 +1,5 @@
  
 # data-download-prototype  #
- ----------
 
 ### Built on React/Redux, Leaflet
 
